@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rudra Panch</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"  style="color: black;">Rudra Panch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: black;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" style="color: black;">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clubs" style="color: black;">PoRs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio" style="color: black;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: black;">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title" style="color: black;">This is Rudra Panch</h2>
+                <p class="hero_desc" style="color: black;">Programmer, ML Engineer and Software Developer</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4 card">
+                    <img src="images/about.jpeg" class= "imageAboutPage" alt="" style="margin-top: 10px; margin-bottom: 10px;">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> 
+                        Currently pursuing my Bachelors in Technology at IIT Madras(final year). Deeply interested in Data Structures,
+                        Machine Learning Algorithms and Parallel Computing Techniques. Working with Dr. Phani Motamarri(IISc Bangalore)
+                        in parallelization of DFT-FE and with Dr. Rupesh Nasre(IIT Madras) in scalability of graph algorithms.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <ul>
+                                <li>Name: Rudra Panch</li>
+                                <li>Age: 21</li>
+                                <li>University: IIT Madras(B.Tech)</li>
+                                <li>Specialization: Mechanical Engineering (Minor in Artifical Intelligence)</li>
+                                <li>Work Experience: Parallel Computing Intern, MATRIX Lab, IISc Bangalore</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> 
+                            I have completed multiple projects in the field of AI/ML, individually focusing on topics like Neural Networks,
+                            LSTM(Long Short-Term Memory), Time Series Forecasting, LLM(Large Language Models) and many more. I am proficient 
+                            in programming languages like C/C++, Python and Javascript. Adding on to this, I have also learnt many Parallel 
+                            Programming languages namely OpenMP, MPI, OpenACC, CUDA and SYCL. I am well-versed in both front-end and back-end 
+                            Website Development using React.js, Node.js, Express.js, MongoDB(or collectively called MERN stack). You will 
+                            find a detailed explanation of all my projects below. Visit my LinkedIn and GitHub profiles for more 
+                            information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <br>
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Interests</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">
+                                Built multiple front-end, back-end and full-stack websites using various softwares. Looking to learn more 
+                                about MERN stack development and the Blockchain.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Parallel Programming</h4>
+                            <p class="card-text mt-3">
+                                Worked on parallelizing the classic Lattice-Boltzmann method for solving transient heat conduction equations, 
+                                achieved a speed-up of almost 5x. Exploring CUDA and SYCL and hope to learn more about HIP as well.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Competitive Coding</h4>
+                            <p class="card-text mt-3">
+                                Regularly participate in online coding contests majorly on platforms like CodeForces and LeetCode. 
+                                Currently rated 1500(Specialist) on CodeForces and solved 200+ problems on LeetCode.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Data Structures</h4>
+                            <p class="card-text mt-3">
+                                Intrigued by various Graph Algorithms like Djikstra's, Prim's, Kruskal's and Kosaraju's algorithms. 
+                                Dynamic Programming and math-related problems are some of my favorites.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Machine Learning</h4>
+                            <p class="card-text mt-3">
+                                Explored this field the most in my college. Have learnt various topics, created numerous models 
+                                with high accuracy and have researched a wide variety of concepts. Currently studying about Multi-Armed 
+                                Bandits and Large Language Models(ChatBots).
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Deep Learning</h4>
+                            <p class="card-text mt-3">
+                                Neural Networks, LSTMs, FB Prophet and many more. Even in Neural Networks, I have explored various models 
+                                each better than the previous like CNNs, RNNs, EfficientNet and Vision Tranformers. 
+                                Currently building a time series model.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clubs">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Positions of Responsibility</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4 card">
+                    <img class="card-img-top" src="images/Avishkar.jpg" alt="Card image" style=" margin-top: 10px; margin-bottom: 10px;">
+                </div>
+
+                <div class="col-lg-8">
+                    <h3>Team Avishkar Hyperloop</h3>
+                    <h5>Project Member, Levitation</h5>
+                    <p> 
+                        Team Avishkar is Asia's most advanced student-run Hyperloop technologies team. Founded more than 8 years back, in 
+                        IIT Madras, Avishkar has grown to be a 50-member group of enthusiastic, dedicated creative students. I was 
+                        recruited to this team as a Project Member in the Levitation subsystem where we designed a stable magnetic levitating 
+                        train and track system using custom in-house made Electromagnets.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <ul>
+                                <li>Represented IIT Madras at the European Hyperloop Week, Edinburgh 2023</li>
+                                <li>Placed Global Top 4 in the Guidance Systems Category</li>
+                                <li>Designed and manufactured a 3-DoF fully levitating system</li>
+                                <li>Learnt various softwares like Ansys Maxwell, CCS and Arduino IDE</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row mt-4">
+                <div class="col-lg-8">
+                    <h3>Department Legislator</h3>
+                    <h5>Department of Mechanical Engineering</h5>
+                    <p> 
+                        The Department of Mechanical Engineering is one of the oldest and the biggest Departments in IIT Madras and the Department 
+                        Legislator is the voice of all the students in front of the Professors. As an elected representative, it is my duty to 
+                        make sure that the academic integrity of the Department is maintained and the transfer of knowledge happens seamlessly
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <ul>
+                                <li>Elected by over 1000 students of the Mechanical Department</li>
+                                <li>Solving academic problems of students</li>
+                                <li>Propose new and feasible ideas to Professors</li>
+                                <li>Take part in discussions for future advancements of the academic curriculum</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 card">
+                    <img class="card-img-top" src="images/nac.jpg" alt="Card image" style="margin-top: 10px; margin-bottom: 10px;">
+                </div>
+            </div>
+    </section>
+    <br>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Collaborative Projects</h1>
+            <br>
+            <div id="collaborative" class="row">
+                <div class="col-lg-1 mt-3"></div>
+                <div class="col-lg-5 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/SVRP.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title">Scaling Vehicle Routing Problem</h3>
+                            <h5 class="card-title">Project Member, IIT Madras</h5>
+                            <p class="card-text">
+                                A popular graph problem involving the use of Minimum Spanning Tree(Kruskal's Algorithm) and Depth-First 
+                                Traversal to find the most optimal route for distribution of ammenities to multiple nodes from a 
+                                depot node with infinite capacity. This NP-HARD problem can be solved much faster by the use 
+                                parallelization on GPUs which is explored in this paper.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Scaling-Vehicle-Routing-Problem" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/DFTFE.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h3 class="card-title">SYCLification of DFT-FE</h3>
+                            <h5 class="card-title">Research Intern, IISc Bangalore</h5>
+                            <p class="card-text">
+                                DFT-FE is a quantum mechanics concept used for modelling of materials at the lowest level of atoms. 
+                                The existing DFT-FE code is a massively parallel one which uses more than 200k+ nodes to solve for 
+                                millions of atoms. SYCL is a relatively new parallel programming language developed for Intel GPUs. 
+                                This project studies the performance of SYCL compared to CUDA and HIP.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/DFT-FE-SYCL/tree/syclIntelGPU" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 mt-3"></div>
+            </div>
+
+            <br>
+            <h1 class="text-center">Parallel Programming Projects</h1>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/LBM.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Parallelization of classic Lattice Boltzmann method</h4>
+                            <p class="card-text">
+                                The Lattice Boltzmann method is a famous method used for solving many Computational fluid dynamics 
+                                and transient heat conduction problems. This can be sped up by the use of parallelization. This paper details 
+                                the use and efficiency of parallel programming in this topic. Results on OpenMP, MPI, hybrid OpenMP and MPI, 
+                                CUDA(CuBLAS) and SYCL(MKL BLAS) have also been studied. 
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Parallelized-Lattice-Boltzmann-Method" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Multigrid.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Parallelization of Multigrid Method(V scheme)</h4>
+                            <p class="card-text">
+                                The V-cycle scheme of the multigrid method is a technique for efficiently solving large-scale linear 
+                                systems, often arising from PDEs in computational physics and engineering. This paper explores the 
+                                implementation and optimization of parallel programming techniques applied to the V-cycle scheme using 
+                                various frameworks, including OpenMP, MPI, OpenACC, CUDA, and SYCL.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Om6123123/Parallelized-Multigrid-Method" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/PCR.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Parallel Cyclic Reduction of Tridiagonal systems</h4>
+                            <p class="card-text">
+                                Parallelization of Cyclic Reduction Algorithm to solve Tridiagonal System of Linear Equation 
+                                using GPU Programming Framework CUDA, OpenACC. The algorithm is divided into 3 steps, Forward 
+                                elimination, Recursive Doubling and Back-substitution. The performance of the code was tested on 
+                                Pade scheme in comparison with state of the art codes provided by NVIDIA.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rachit003/Parallel-Cyclic-Reduction" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 class="text-center">Machine Learning Projects</h1>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/lstm.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Text Translator</h4>
+                            <p class="card-text">
+                                A Deep Learning model with GRUs using encoder-decoder architecture which encodes 
+                                text of one language into a context vector and a decoder outputs the closest translation of this text 
+                                into another language. This mechanism which uses Bahdanau Attention and teacher-forcing enhances 
+                                translation quality by focusing on relevant parts of the input.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Text-Translation" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/tsf.gif" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sales Forecasting</h4>
+                            <p class="card-text">
+                                Forecasting the future sales/profits of a company is an important application of Machine Learning nowadays. 
+                                An useful tool to do this is the FB Prophet. This project explores the use of FB Prophet and exponential smoothing to build a 
+                                reliable forecasting mode and Pandas UDF to further improve it's scalability.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Sales-Forecasting" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/medical_chatbot.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Medical ChatBot</h4>
+                            <p class="card-text">
+                                Created a medical chatbot using Pinecone and langchain for vector search and HuggingFace embeddings for query processing.
+                                Implemented PDF loading, text splitting, and document search with Pinecone and HuggingFace for a chatbot. 
+                                A medical book was used as the refernce for the chatbot. Answers any queries elated to the field of medicine.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Medical-Chatbot" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 class="text-center">Web Development Projects</h1>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Blog3.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog Website</h4>
+                            <p class="card-text">
+                                A website that uses Node.js Express.js EJS and MongoDB backend to store blogs written by users
+                                published on a home page. This is a dynamic multi-page website wherein 
+                                particular blogs can be viewed separately by using the appropriate page link.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Blog-Website" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Task_Keeper.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Task Keeper</h4>
+                            <p class="card-text">
+                                A clone of the Google Keeper site using React.js built from scratch. Features like adding a task, 
+                                deleting a task and many more have been replicated and the page has also been styled 
+                                using HTML and CSS. 
+                            </p>
+                            <br>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Task-Keeper" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/mern.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">MERN project</h4>
+                            <p class="card-text">
+                                Working on a project involving MERN stack. Will update here as soon as done.
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/cnn.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Emotion Detection using CNN</h4>
+                            <p class="card-text">
+                                Implemented three CNN models—LeNet, ResNet34, and EfficientNetB4 for emotion classification, 
+                                incorporating custom layers, data augmentation, and performance metrics. Trained on a dataset 
+                                with "angry," "happy," and "sad" emotions, achieving detailed evaluations of each model.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rachit003/Emotion-Detection-using-Neural-Networks" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/transformer.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Search-In-Video Transformer</h4>
+                            <p class="card-text">
+                                This project integrates advanced speech recognition with video processing to extract timestamps of 
+                                specific words in a video. Using Facebook AI's Wav2Vec2 model, it accurately identifies spoken words 
+                                in English, including British and American accents, and pinpoints the exact moments they occur.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Om6123123/Search-In-Video-Transformer" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/ML.jpeg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Algorithms From Scratch</h4>
+                            <p class="card-text">
+                                Developed ML algorithms from scratch, including Stochastic Gradient Descent, K-means, Pricipal Component Analysis 
+                                and logistic regression without the use oflibraries. Coded advanced ML models like Bernoulli mixture 
+                                model, Support Vector Machines & Naive Bayes and tested them on public datasets.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Pattern-Recognition" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 class="text-center">DSA Projects</h1>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/split.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Splitwise Clone</h4>
+                            <p class="card-text">
+                                A simple algorithm to replicate the process of splitting expenses between a group which is famously done 
+                                by Splitwise. Written in c++, using the graph data structure, a simple, efficient and readable code which 
+                                summarizes how much each group member is owed, owes other members and total expenses of each 
+                                member and the group as a whole.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Splitwise-Clone" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/sudoku.png" alt="Card image" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sudoku Solver</h4>
+                            <p class="card-text">
+                                A back-tracking algorithm written and optimized in c++ which can solve any 9x9 solvable Sudoku 
+                                puzzle. The GitHub link to this code also explores some examples which can be given as input to 
+                                the code. Correct answers have also been provided for reference
+                            </p>
+                            <br>
+                            <div class="text-center">
+                                <a href="https://github.com/Rudra2302/Sudoku-Solver" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Project 3</h4>
+                            <p class="card-text">
+                                
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success" style="background-color: black; color: white;">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
